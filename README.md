@@ -1,1 +1,1 @@
-# OIAR (Ontology Integration by Alignment Reuse)
+# OIAR (Ontology Integration with Alignment Reuse)
