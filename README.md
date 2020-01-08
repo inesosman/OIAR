@@ -62,5 +62,5 @@ You can download and view this [refactored merged ontology](https://github.com/i
 
 ## Conclusion
 
-* Our final ontology is complete, in the sense that it retains all entities, axioms and hierarchies from the input ontologies.
+* Our final ontology is complete, in the sense that it retains all entities, axioms and hierarchies from the input ontologies, and correspondences from the input alignments.
 * Running OIAR for merging the *Large Biomedical Ontologies* does not exceed **one minute**.
