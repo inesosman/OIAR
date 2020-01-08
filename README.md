@@ -1,5 +1,5 @@
 # **OIAR** (**O**ntology **I**ntegration with **A**lignment **R**euse)
-OIAR is an approach for creating a new ontology resulting from a simple merge of multiple ontologies using pairwise alignments between them. It automatically customizes and merges multiple large ontologies in very short times.
+OIAR is an approach for creating a new ontology resulting from a simple merge of multiple ontologies using pairwise alignments between them. It automatically customizes and merges multiple large ontologies in a holistic way and in very short times.
 
 Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI track. We will merge them using reference alignments between all possible ontology pairs. This will ensure a complete semantic interoperability between them. All tests were performed with a confidence threshold equal to 0.0, so we kept all correspondences / cells of the input alignments.
 
@@ -63,4 +63,4 @@ You can download and view this [refactored merged ontology](https://github.com/i
 ## Conclusion
 
 * Our final ontology is complete, in the sense that it retains all entities, axioms and hierarchies from the input ontologies.
-* Running OIAR for merging the *Large Biomedical Ontologies* do not exceed **one minute**.
+* Running OIAR for merging the *Large Biomedical Ontologies* does not exceed **one minute**.
