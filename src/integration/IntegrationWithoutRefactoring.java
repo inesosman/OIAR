@@ -125,22 +125,22 @@ public class IntegrationWithoutRefactoring {
 		/** selecting and entering input ontologies to be merged */
 
 		/** Conference base */		
-		ontologiesFiles.add("Input/cmt.owl");
-		ontologiesFiles.add("Input/conference.owl");
-		ontologiesFiles.add("Input/confOf.owl");
-		ontologiesFiles.add("Input/edas.owl");
-		ontologiesFiles.add("Input/ekaw.owl");
-		ontologiesFiles.add("Input/iasted.owl");
-		ontologiesFiles.add("Input/sigkdd.owl");
+		//ontologiesFiles.add("Input/cmt.owl");
+		//ontologiesFiles.add("Input/conference.owl");
+		//ontologiesFiles.add("Input/confOf.owl");
+		//ontologiesFiles.add("Input/edas.owl");
+		//ontologiesFiles.add("Input/ekaw.owl");
+		//ontologiesFiles.add("Input/iasted.owl");
+		//ontologiesFiles.add("Input/sigkdd.owl");
 
 		/** Anatomy base */
 		//ontologiesFiles.add("Input/human.owl");
 		//ontologiesFiles.add("Input/mouse.owl");     
 
 		/** LargeBio base */
-        //ontologiesFiles.add("Input/FMA3.owl");
-        //ontologiesFiles.add("Input/NCI3.owl");
-        //ontologiesFiles.add("Input/SNOMED3.owl");
+        ontologiesFiles.add("Input/FMA2.owl"); /** FMA3 is the whole FMA */
+        ontologiesFiles.add("Input/NCI1.owl"); /** NCI3 is the whole NCI */
+        ontologiesFiles.add("Input/SNOMED1.owl"); /** SNOMED3 is the extended SNOMED */
 
 		/** Disease Phenotype base */
 //		ontologiesFiles.add("Input/hp.owl");
@@ -162,35 +162,35 @@ public class IntegrationWithoutRefactoring {
 		ArrayList<String> alignmentsFiles = new ArrayList<String>();
 
 		/** Conference base */
-		alignmentsFiles.add("Input/cmt-conference.rdf");
-		alignmentsFiles.add("Input/cmt-confOf.rdf");
-		alignmentsFiles.add("Input/cmt-edas.rdf");
-		alignmentsFiles.add("Input/cmt-ekaw.rdf");
-		alignmentsFiles.add("Input/cmt-iasted.rdf");
-		alignmentsFiles.add("Input/cmt-sigkdd.rdf");
-		alignmentsFiles.add("Input/conference-confOf.rdf");
-		alignmentsFiles.add("Input/conference-edas.rdf");
-		alignmentsFiles.add("Input/conference-ekaw.rdf");
-		alignmentsFiles.add("Input/conference-iasted.rdf");
-		alignmentsFiles.add("Input/conference-sigkdd.rdf");
-		alignmentsFiles.add("Input/confOf-edas.rdf");
-		alignmentsFiles.add("Input/confOf-ekaw.rdf");
-		alignmentsFiles.add("Input/confOf-iasted.rdf");
-		alignmentsFiles.add("Input/confOf-sigkdd.rdf");
-		alignmentsFiles.add("Input/edas-ekaw.rdf");
-		alignmentsFiles.add("Input/edas-iasted.rdf");
-		alignmentsFiles.add("Input/edas-sigkdd.rdf");
-		alignmentsFiles.add("Input/ekaw-iasted.rdf");
-		alignmentsFiles.add("Input/ekaw-sigkdd.rdf");
-		alignmentsFiles.add("Input/iasted-sigkdd.rdf");
+		//alignmentsFiles.add("Input/cmt-conference.rdf");
+		//alignmentsFiles.add("Input/cmt-confOf.rdf");
+		//alignmentsFiles.add("Input/cmt-edas.rdf");
+		//alignmentsFiles.add("Input/cmt-ekaw.rdf");
+		//alignmentsFiles.add("Input/cmt-iasted.rdf");
+		//alignmentsFiles.add("Input/cmt-sigkdd.rdf");
+		//alignmentsFiles.add("Input/conference-confOf.rdf");
+		//alignmentsFiles.add("Input/conference-edas.rdf");
+		//alignmentsFiles.add("Input/conference-ekaw.rdf");
+		//alignmentsFiles.add("Input/conference-iasted.rdf");
+		//alignmentsFiles.add("Input/conference-sigkdd.rdf");
+		//alignmentsFiles.add("Input/confOf-edas.rdf");
+		//alignmentsFiles.add("Input/confOf-ekaw.rdf");
+		//alignmentsFiles.add("Input/confOf-iasted.rdf");
+		//alignmentsFiles.add("Input/confOf-sigkdd.rdf");
+		//alignmentsFiles.add("Input/edas-ekaw.rdf");
+		//alignmentsFiles.add("Input/edas-iasted.rdf");
+		//alignmentsFiles.add("Input/edas-sigkdd.rdf");
+		//alignmentsFiles.add("Input/ekaw-iasted.rdf");
+		//alignmentsFiles.add("Input/ekaw-sigkdd.rdf");
+		//alignmentsFiles.add("Input/iasted-sigkdd.rdf");
 
 		/** Anatomy base */
 		//alignmentsFiles.add("Input/human-mouse.rdf");
 
 		/** Largebio base */
-        //alignmentsFiles.add("Input/FMA2NCI.rdf");
-        //alignmentsFiles.add("Input/FMA2SNOMED.rdf");
-        //alignmentsFiles.add("Input/SNOMED2NCI.rdf");
+        alignmentsFiles.add("Input/FMA2NCI.rdf");
+        alignmentsFiles.add("Input/FMA2SNOMED.rdf");
+        alignmentsFiles.add("Input/SNOMED2NCI.rdf");
 		
 		/** Disease Phenotype base */ 
 //		alignmentsFiles.add("Input/HP_MP.rdf");
