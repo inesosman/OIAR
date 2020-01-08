@@ -138,17 +138,17 @@ public class IntegrationWithoutRefactoring {
 		//ontologiesFiles.add("Input/mouse.owl");     
 
 		/** LargeBio base */
-        ontologiesFiles.add("Input/FMA2.owl"); /** FMA3 is the whole FMA */
-        ontologiesFiles.add("Input/NCI1.owl"); /** NCI3 is the whole NCI */
-        ontologiesFiles.add("Input/SNOMED1.owl"); /** SNOMED3 is the extended SNOMED */
+                ontologiesFiles.add("Input/FMA2.owl"); /** FMA3 is the whole FMA */
+                ontologiesFiles.add("Input/NCI1.owl"); /** NCI3 is the whole NCI */
+                ontologiesFiles.add("Input/SNOMED1.owl"); /** SNOMED3 is the extended SNOMED */
 
 		/** Disease Phenotype base */
-//		ontologiesFiles.add("Input/hp.owl");
-//		ontologiesFiles.add("Input/mp.owl");
-//		ontologiesFiles.add("Input/mesh.owl");
-//		ontologiesFiles.add("Input/omim.owl");
-//		ontologiesFiles.add("Input/doid.owl");
-//		ontologiesFiles.add("Input/ordo.owl");
+		//ontologiesFiles.add("Input/hp.owl");
+		//ontologiesFiles.add("Input/mp.owl");
+		//ontologiesFiles.add("Input/mesh.owl");
+		//ontologiesFiles.add("Input/omim.owl");
+		//ontologiesFiles.add("Input/doid.owl");
+		//ontologiesFiles.add("Input/ordo.owl");
 		
 		for(int g=0; g<ontologiesFiles.size(); g++){
 			ontologiesSet.add(manager.loadOntologyFromOntologyDocument(new File(ontologiesFiles.get(g))));
@@ -188,15 +188,15 @@ public class IntegrationWithoutRefactoring {
 		//alignmentsFiles.add("Input/human-mouse.rdf");
 
 		/** Largebio base */
-        alignmentsFiles.add("Input/FMA2NCI.rdf");
-        alignmentsFiles.add("Input/FMA2SNOMED.rdf");
-        alignmentsFiles.add("Input/SNOMED2NCI.rdf");
+                alignmentsFiles.add("Input/FMA2NCI.rdf");
+                alignmentsFiles.add("Input/FMA2SNOMED.rdf");
+                alignmentsFiles.add("Input/SNOMED2NCI.rdf");
 		
 		/** Disease Phenotype base */ 
-//		alignmentsFiles.add("Input/HP_MP.rdf");
-//		alignmentsFiles.add("Input/HP_RH-MESH.rdf");
-//		alignmentsFiles.add("Input/HP_OMIM.rdf");
-//		alignmentsFiles.add("Input/DOID_ORDO.rdf");
+		//alignmentsFiles.add("Input/HP_MP.rdf");
+		//alignmentsFiles.add("Input/HP_RH-MESH.rdf");
+		//alignmentsFiles.add("Input/HP_OMIM.rdf");
+		//alignmentsFiles.add("Input/DOID_ORDO.rdf");
 
 		/*******************************************************************************************************************************************/
 
