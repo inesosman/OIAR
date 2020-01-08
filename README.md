@@ -40,7 +40,8 @@ Here is the definition/description of __Abdominal_lymph_node__ class in its orig
 The above-mentioned correspondences will lead to addition of three equivalence axioms between the __Abdominal_lymph_node__ class (from FMA (Ont1)) and its three matched classes __Intra-abdominal_Lymph_Node__ (from NCI (Ont2)), __Abdominal_lymph_node_group__ (from SNOMED (Ont3)), and __Abdominal_lymph_node_structure__ (from SNOMED (Ont3)). For this example, we chose to give our future merged ontology the following IRI : "http://integration". 
 
 
-The following figures show the __Abdominal_lymph_node__ class in our output ontology that resulted from the merging of the three _LargeBio_ ontologies. The framed axioms are the added bridging axioms.
+The following figures show the __Abdominal_lymph_node__ class in our output ontology that resulted from the merging of the three _LargeBio_ ontologies. Axioms framed in red are the added bridging axioms.
+
 
 You can view and download our merged ontologies from the [Output folder](https://github.com/inesosman/OIAR/blob/master/Output).
 
@@ -49,14 +50,14 @@ You can view and download our merged ontologies from the [Output folder](https:/
 
 ![MergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/4.png)
 
-For the non-customized version, axioms are exactly like the original ones.
+For the non-customized version, axioms are identical to the original ones, and bridging axioms are added to them.
 You can download and view this [non-refactored merged ontology](https://github.com/inesosman/OIAR/blob/master/Output/IntegratedOntology_WithoutRefact.owl) from the Output folder.
 
 ### * Refactored Version
 
 ![RefactoredMergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/3.png)
 
-For the customized version, axioms are like the original ones, except that the IRIs of the all mentioned entities are customized.
+For the customized version, axioms are like the original ones, except that the IRIs of the all mentioned entities are customized and bridge axioms are added to them.
 You can download and view this [refactored merged ontology](https://github.com/inesosman/OIAR/blob/master/Output/IntegratedOntology_WithoutRefact.owl) from the Output folder.
 
 ## Conclusion
