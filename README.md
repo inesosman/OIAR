@@ -26,7 +26,7 @@ The third correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob
 
 
 
-## Input Ontologies
+## Input Ontologies (FMA + NCI + SNOMED)
 
 ### * FMA
 
