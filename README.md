@@ -4,7 +4,7 @@ OIAR is an approach for creating a new ontology resulting from a simple merge of
 Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI track. We will merge them using reference alignments between all possible ontology pairs. This will ensure a complete semantic interoperability between them. All tests were performed with a confidence threshold equal to 0.0, so we kept all correspondences / cells of the input alignments.
 
 
-## Input Alignments
+## Input Alignments (FMA-NCI + SNOMED-NCI + FMA-SNOMED)
 
 Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments. They match the __Abdominal_lymph_node__ class (from [FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl)) to other classes (from [NCI](https://github.com/inesosman/OIAR/blob/master/Input/NCI2.owl) and [SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/SNOMED1.owl)).
 
