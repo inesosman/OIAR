@@ -6,7 +6,7 @@ Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI tra
 
 ## Input Alignments
 
-Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments:
+Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments. They match __Abdominal_lymph_node__ class (from FMA) to other classes (from NCI and SNOMED).
 
 ### * FMA-NCI
 
@@ -37,7 +37,7 @@ Here is the definition/description of __Abdominal_lymph_node__ class in its orig
 
 ## Output Merged Ontology
 
-The above-mentioned correspondences will lead to addition of three equivalence axioms between the __Abdominal_lymph_node__ class (from FMA (Ont1)) and its three matched classes __Intra-abdominal_Lymph_Node__ (from NCI (Ont2)), __Abdominal_lymph_node_group__ (from SNOMED (Ont3)), and __Abdominal_lymph_node_structure__ (from SNOMED (Ont3)). For this example, we chose to give our future merged ontology the following IRI : "http://integration". 
+The above-mentioned correspondences will lead to addition of three equivalence axioms between the __Abdominal_lymph_node__ class (from FMA (Ont1)) and its three matched classes __Intra-abdominal_Lymph_Node__ (from NCI (Ont2)), __Abdominal_lymph_node_group__ (from SNOMED (Ont3)), and __Abdominal_lymph_node_structure__ (from SNOMED (Ont3)). In other words, these correspondences will lead to three bridging axioms added to the description of the class __Abdominal_lymph_node__. For this example, we chose to give our future merged ontology the following IRI : "http://integration". 
 
 
 The following figures show the __Abdominal_lymph_node__ class in our output ontology that resulted from the merging of the three _LargeBio_ ontologies. Axioms framed in red are the added bridging axioms.
