@@ -23,7 +23,7 @@ public class OntologyConsistencyAndCoherence {
 
 		//OWLReasonerFactory reasonerFactory = new StructuralReasonerFactory(); // with the default reasoner
 		//OWLReasonerFactory reasonerFactory = new Reasoner.ReasonerFactory(); // with HermiT reasoner
-        OWLReasonerFactory reasonerFactory = new ElkReasonerFactory(); // with ELK reasoner
+                OWLReasonerFactory reasonerFactory = new ElkReasonerFactory(); // with ELK reasoner
 		
 		LogManager.getLogger("org.semanticweb.elk").setLevel(Level.OFF); // Level.ERROR
 		//LogManager.getLogger("org.semanticweb.elk.reasoner.indexing").setLevel(Level.ERROR);
@@ -68,7 +68,7 @@ public class OntologyConsistencyAndCoherence {
 		// equivalent to owl:Nothing - i.e. the unsatisfiable classes. We just
 		// want to print out the unsatisfiable classes excluding owl:Nothing,
 		// and we can used a convenience method on the node to get these
-        int k=0;
+                int k=0;
 		for (OWLClass cls : bottomNode.getEntitiesMinusBottom()) {
 			k++;
 			System.out.println(k+"/. "+ cls.getIRI().getFragment());
