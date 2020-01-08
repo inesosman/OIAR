@@ -138,9 +138,9 @@ public class IntegrationWithRefactoring {
 		//ontologiesFiles.add("Input/mouse.owl");     
 
 		/** LargeBio base */
-        ontologiesFiles.add("Input/FMA2.owl"); /** FMA3 is the whole FMA */
-        ontologiesFiles.add("Input/NCI1.owl"); /** NCI3 is the whole NCI */
-        ontologiesFiles.add("Input/SNOMED1.owl"); /** SNOMED3 is the extended SNOMED */
+                ontologiesFiles.add("Input/FMA2.owl"); /** FMA3 is the whole FMA */
+                ontologiesFiles.add("Input/NCI1.owl"); /** NCI3 is the whole NCI */
+                ontologiesFiles.add("Input/SNOMED1.owl"); /** SNOMED3 is the extended SNOMED */
 
 		/** Disease Phenotype base */
 		//ontologiesFiles.add("Input/hp.owl");
@@ -188,9 +188,9 @@ public class IntegrationWithRefactoring {
 		//alignmentsFiles.add("Input/human-mouse.rdf");
 
 		/** Largebio base */
-        alignmentsFiles.add("Input/FMA2NCI.rdf");
-        alignmentsFiles.add("Input/FMA2SNOMED.rdf");
-        alignmentsFiles.add("Input/SNOMED2NCI.rdf");
+                alignmentsFiles.add("Input/FMA2NCI.rdf");
+                alignmentsFiles.add("Input/FMA2SNOMED.rdf");
+                alignmentsFiles.add("Input/SNOMED2NCI.rdf");
 		
 		/** Disease Phenotype base */ 
 		//alignmentsFiles.add("Input/HP_MP.rdf");
