@@ -6,7 +6,7 @@ Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI tra
 
 ## Input Alignments
 
-Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments. They match __Abdominal_lymph_node__ class (from [FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl)) to other classes (from [NCI](https://github.com/inesosman/OIAR/blob/master/Input/NCI2.owl) and [SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/SNOMED1.owl)).
+Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments. They match the __Abdominal_lymph_node__ class (from [FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl)) to other classes (from [NCI](https://github.com/inesosman/OIAR/blob/master/Input/NCI2.owl) and [SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/SNOMED1.owl)).
 
 ### * FMA-NCI
 
