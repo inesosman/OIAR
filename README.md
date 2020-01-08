@@ -16,11 +16,11 @@ The first correspondence (in [FMA-NCI](https://github.com/inesosman/OIAR/blob/ma
 
 ### FMA-SNOMED
 
-The second correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/FMA2SNOMED.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Abdominal_lymph_node_group__ class (from SNOMED):
+The second correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/FMA2SNOMED.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Abdominal_lymph_node_structure__ class (from SNOMED):
 
 ![FMA-SNOMED alignment](https://github.com/inesosman/OIAR/blob/master/Figures/cell222.png)
 
-The third correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/FMA2SNOMED.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Abdominal_lymph_node_structure__ class (from SNOMED):
+The third correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/FMA2SNOMED.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Abdominal_lymph_node_group__ class (from SNOMED):
 
 ![FMA-SNOMED alignment](https://github.com/inesosman/OIAR/blob/master/Figures/cell333.png)
 
