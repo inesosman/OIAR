@@ -28,7 +28,7 @@ The third correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob
 
 ## Input Ontologies (FMA + NCI + SNOMED)
 
-### * FMA
+### FMA
 
 Here is the definition/description of __Abdominal_lymph_node__ class in its original ontology ([FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl) (Ont1)) :
 
@@ -46,14 +46,14 @@ The following figures show the __Abdominal_lymph_node__ class in our output onto
 You can view and download our merged ontologies from the [Output folder](https://github.com/inesosman/OIAR/blob/master/Output).
 
 
-### * Non-Refactored Version
+### Non-Refactored Version
 
 ![MergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/4.png)
 
 For the non-customized version, axioms are identical to the original ones, and bridging axioms are added to them.
 You can download and view this [non-refactored merged ontology](https://github.com/inesosman/OIAR/blob/master/Output/IntegratedOntology_WithoutRefact.owl) from the Output folder.
 
-### * Refactored Version
+### Refactored Version
 
 ![RefactoredMergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/3.png)
 
