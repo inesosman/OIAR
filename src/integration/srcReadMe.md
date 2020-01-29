@@ -1,6 +1,6 @@
 You can expand the JVM space before running these classes by putting these JVM arguments :
 
-* '-Xms1024m -Xmx2048m'
+'-Xms1024m -Xmx2048m'
 
 or if you need more (especially if your input ontologies are large) :
 
