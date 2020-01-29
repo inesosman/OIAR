@@ -1,6 +1,22 @@
 # **OIAR** (**O**ntology **I**ntegration with **A**lignment **R**euse)
 OIAR is an approach for creating a new ontology resulting from a simple merge of multiple ontologies using pairwise alignments between them. It automatically customizes and merges multiple large ontologies in a holistic way and in very short times.
 
+
+## Intallation
+
+Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API jars and their dependencies, Alignment API jars, HermiT jars, and ELK jars). Then, run one of the three following classes (depending on your choice) :
+
+* [AutomaticIntegrationWithoutRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/AutomaticIntegrationWithoutRefactoring.java): It uses the predefined OWLOntologyMerger() method of OWL API which automatically aggregates/concatenates the axioms of the loaded input ontologies. Then, it translates correspondences of the input alignments into bridging axioms, and adds them in order to link different entities.
+
+* [IntegrationWithoutRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithoutRefactoring.java): It parses all the input ontologies' axioms, and creates an exact copy of them. Then, it adds bridging axioms of the input alignments in order to link different entities.
+
+* [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java): It parses all the input ontologies' axioms, and creates a modified cory of them. It consists in replacing the prefix IRIs of all entities by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities.
+
+
+
+
+# Example
+
 Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI track. We will merge them using reference alignments between all possible ontology pairs. This will ensure a complete semantic interoperability between them. All tests were performed with a confidence threshold equal to 0.0, so we kept all correspondences / cells of the input alignments.
 
 
