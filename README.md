@@ -14,14 +14,14 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 
 ### Input
 
-* Two or more OWL ontologies to be merged (owl files) (the path of the files should be correct !)
-* One or more ontology alignments (in the Alignment API format) (rdf files) (the path of the files should be correct !)
+* Two or more OWL ontologies to be merged (owl files in the [Input](https://github.com/inesosman/OIAR/tree/master/Input) folder) (the path of the files should be correct !)
+* One or more ontology alignments (in the Alignment API format) (rdf files in the [Input](https://github.com/inesosman/OIAR/tree/master/Input) folder) (the path of the files should be correct !)
 * A new IRI for the output merged ontology
 * A threshold real value between [0,1] to filter the alignment correspondences by their confidence measure.
 
 ### Output
 
-* A new merged ontology (an owl file)
+* A new merged ontology (an owl file in the [Output](https://github.com/inesosman/OIAR/tree/master/Output) folder).
 
 
 # Example
