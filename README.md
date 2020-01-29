@@ -79,7 +79,7 @@ You can view and download our merged ontologies from the [Output folder](https:/
 For the non-customized version, axioms are identical to the original ones, and bridging axioms are added to them.
 You can download and view this [non-refactored merged ontology](https://github.com/inesosman/OIAR/blob/master/Output/IntegratedOntology_WithoutRefact.owl) from the Output folder.
 
-### Refactored Version
+### <ins>Refactored Version</ins>
 
 ![RefactoredMergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/3.png)
 
