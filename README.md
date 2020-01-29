@@ -34,13 +34,13 @@ Let's merge the three ontologies of the **Large Biomedical Ontologies** OAEI tra
 
 Here are three equivalence correspondences extracted from the three "Large Biomedical Ontologies" OAEI reference alignments. They match the __Abdominal_lymph_node__ class (from [FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl)) to other classes (from [NCI](https://github.com/inesosman/OIAR/blob/master/Input/NCI2.owl) and [SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/SNOMED1.owl)).
 
-### FMA-NCI
+### <ins>FMA-NCI</ins>
 
 The first correspondence (in [FMA-NCI](https://github.com/inesosman/OIAR/blob/master/Input/FMA2NCI.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Intra-abdominal_Lymph_Node__ class (from NCI):
 
 ![FMA-NCI alignment](https://github.com/inesosman/OIAR/blob/master/Figures/cell111.png)
 
-### FMA-SNOMED
+### <ins>FMA-SNOMED</ins>
 
 The second correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob/master/Input/FMA2SNOMED.rdf)) matches the __Abdominal_lymph_node__ class (from FMA) to the __Abdominal_lymph_node_structure__ class (from SNOMED):
 
@@ -54,7 +54,7 @@ The third correspondence (in [FMA-SNOMED](https://github.com/inesosman/OIAR/blob
 
 ## Input Ontologies (FMA + NCI + SNOMED)
 
-### FMA
+### <ins>FMA</ins>
 
 Here is the definition/description of __Abdominal_lymph_node__ class in its original ontology ([FMA](https://github.com/inesosman/OIAR/blob/master/Input/FMA2.owl) (Ont1)) :
 
