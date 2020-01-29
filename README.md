@@ -72,7 +72,7 @@ The following figures show the __Abdominal_lymph_node__ class in our output onto
 You can view and download our merged ontologies from the [Output folder](https://github.com/inesosman/OIAR/blob/master/Output).
 
 
-### <u>Non-Refactored Version</u>
+### <ins>Non-Refactored Version</ins>
 
 ![MergedClass](https://github.com/inesosman/OIAR/blob/master/Figures/4.png)
 
