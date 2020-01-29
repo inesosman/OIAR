@@ -2,7 +2,7 @@
 OIAR is an approach for creating a new ontology resulting from a simple merge of multiple ontologies using pairwise alignments between them. It automatically customizes and merges multiple large ontologies in a holistic way and in very short times.
 
 
-## Intallation
+## Installation
 
 Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API jars and their dependencies, Alignment API jars, HermiT jars, and ELK jars). Then, run one of the three following classes (depending on your choice) :
 
