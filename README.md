@@ -2,7 +2,7 @@
 OIAR is an approach for creating a new ontology resulting from a simple merge of multiple ontologies using pairwise alignments between them. It automatically customizes and merges multiple large ontologies in a holistic way and in very short times.
 
 
-## Installation
+# Installation
 
 Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API jars and their dependencies, Alignment API jars, HermiT jars, and ELK jars. Then, run one of the three following classes of the [src/integration](https://github.com/inesosman/OIAR/tree/master/src/integration) folder (depending on your choice) :
 
@@ -12,17 +12,18 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 
 * [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java) : It parses all the input ontologies' axioms, and creates a refactored copy of them. A full IRI of an entity (which can be a class, a property, or an individual) is composed of a prefix, followed by a local name (*i.e.*, a suffix or an abbriviated name). Refactoring consists in replacing the prefix IRIs of all entities (*i.e.*, the part before the #) by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities.
 
-### Input
+## Input
 
 * Two or more OWL ontologies to be merged (owl files in the [Input](https://github.com/inesosman/OIAR/tree/master/Input) folder) (the path of the files should be correct !)
 * One or more ontology alignments (in the Alignment API format) (rdf files in the [Input](https://github.com/inesosman/OIAR/tree/master/Input) folder) (the path of the files should be correct !)
 * A new IRI for the output merged ontology
 * A threshold real value between [0,1] to filter the alignment correspondences by their confidence measure.
 
-### Output
+## Output
 
 * A new merged ontology (an owl file in the [Output](https://github.com/inesosman/OIAR/tree/master/Output) folder).
 
+---
 
 # Example
 
@@ -85,7 +86,9 @@ You can download and view this [non-refactored merged ontology](https://github.c
 For the customized version, axioms are like the original ones, except that the IRIs of the all mentioned entities are customized and bridge axioms are added to them.
 You can download and view this [refactored merged ontology](https://github.com/inesosman/OIAR/blob/master/Output/IntegratedOntology_WithoutRefact.owl) from the Output folder.
 
-## Conclusion
+---
+
+# Conclusion
 
 * Our final ontology is complete, in the sense that it retains all entities, axioms and hierarchies from the input ontologies, and correspondences from the input alignments.
 * Running OIAR for merging the *Large Biomedical Ontologies* does not exceed **one minute**.
