@@ -10,7 +10,7 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 
 * [IntegrationWithoutRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithoutRefactoring.java): It parses all the input ontologies' axioms, and creates an exact copy of them. Then, it adds bridging axioms of the input alignments in order to link different entities.
 
-* [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java): It parses all the input ontologies' axioms, and creates a refactored copy of them. Refactoring consists in replacing the prefix IRIs of all entities (*i.e.*, the part before the #) by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities.
+* [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java): It parses all the input ontologies' axioms, and creates a refactored copy of them. Refactoring consists in replacing the prefix IRIs of all entities (*i.e.*, the part before the #) by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities. In fact, a full IRI of an entity (which can be a class, a property, or an individual) is composed of a prefix, followed by a local name (*i.e.*, a suffix or an abbriviated name).
 
 ### Input
 
