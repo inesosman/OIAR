@@ -12,7 +12,7 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 
 * [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java) : It parses all the input ontologies' axioms, and creates a refactored copy of them. A full IRI of an entity (which can be a class, a property, or an individual) is composed of a prefix, followed by a local name (*i.e.*, a suffix or an abbriviated name). Refactoring consists in replacing the prefix IRIs of all entities (*i.e.*, the part before the #) by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities.
 
-__N.B__: [Git](https://git-scm.com/downloads) should installed in the machine in order to run these algorithms directly from the downloaded project.
+__N.B__: [Git](https://git-scm.com/downloads) should be installed in the machine in order to run these algorithms directly from the downloaded project.
 
 ### Input
 
