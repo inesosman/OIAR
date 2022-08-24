@@ -198,6 +198,7 @@ public class AutomaticIntegrationWithoutRefactoring {
 		/** you can uncomment this method to remove the disjointClasses axioms (which are the cause of future unsatisfiabilities) from the integrated ontology */
 		//removeAllDisjointAxioms(manager, integratedOntology);
 		
+		/** creating the integrated ontology and specifying its path. */
 		manager.saveOntology(integratedOntology, new RDFXMLOntologyFormat(), IRI.create(new File("Output/IntegratedOntology_WithoutRefact.owl")));		
 		//manager.saveOntology(mergedOntology, new OWLXMLOntologyFormat(), IRI.create(new File("Output/IntegratedOntology_WithoutRefact.owl")));
 		//manager.saveOntology(mergedOntology, new OWLFunctionalSyntaxOntologyFormat(), IRI.create(new File("Output/IntegratedOntology_WithoutRefact.owl")));	
