@@ -264,6 +264,8 @@ public class IntegrationWithoutRefactoring {
 
 		/*****************************************************************************************************************************************************/		
 
+		/** creating the merged ontology and specifying its path. */
+
 		manager.addAxioms(integratedOntology, integratedOntologyAxioms);
 
 		manager.saveOntology(integratedOntology, new RDFXMLOntologyFormat(), IRI.create(new File("Output/IntegratedOntology_WithoutRefact2.owl")));
