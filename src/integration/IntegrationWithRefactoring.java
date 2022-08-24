@@ -265,6 +265,8 @@ public class IntegrationWithRefactoring {
 
 		/*****************************************************************************************************************************************************/		
 
+		/** creating the integrated ontology and specifying its path. */
+		
 		manager.addAxioms(integratedOntology, integratedOntologyAxioms);
 
 		manager.saveOntology(integratedOntology, new RDFXMLOntologyFormat(), IRI.create(new File("Output/IntegratedOntology_WithRefact.owl")));
