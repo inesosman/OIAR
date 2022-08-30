@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.LogManager;
-import org.semanticweb.HermiT.Reasoner;
+//import org.semanticweb.HermiT.Reasoner;
 import org.semanticweb.elk.owlapi.ElkReasonerFactory;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.OWLClass;
