@@ -167,7 +167,7 @@ public class AutomaticIntegrationWithoutRefactoring {
 
 		/********************************************************************************************************************************************************************/
 
-		/** if this module was commented, then OIA2R would just aggregate the input ontologies */
+		/** if this module was commented, then OIAR would just aggregate the input ontologies */
 		/** choose one of the four following methods (if you uncomment one, comment the others, and vice versa) */
 		/** the filtering soft version keeps the higher-multiplicity correspondences having equal confidence values */
 		/** while the filtering hard version only keeps a single correspondence from the higher-multiplicity correspondences, even if they have exactly equal confidence values */
