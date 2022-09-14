@@ -4,7 +4,7 @@ OIAR is an approach for creating a new ontology resulting from a simple merge of
 
 ## Installation
 
-Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API jars and their dependencies, Alignment API jars, HermiT ontology reasoner jars, and ELK ontology reasoner jars. Then, run one of the three following classes of the [src/integration](https://github.com/inesosman/OIAR/tree/master/src/integration) folder (depending on your choice) :
+Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API 3.5 jars and their dependencies, Alignment API 4.9 jars, HermiT ontology reasoner jars, and ELK ontology reasoner jars. Then, run one of the three following classes of the [src/integration](https://github.com/inesosman/OIAR/tree/master/src/integration) folder (depending on your choice) :
 
 * [AutomaticIntegrationWithoutRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/AutomaticIntegrationWithoutRefactoring.java) : It uses the predefined OWLOntologyMerger() method of OWL API, which automatically aggregates/concatenates the axioms of the loaded input ontologies. Then, it translates correspondences of the input alignments into bridging axioms, and adds them in order to link different entities.
 
