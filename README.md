@@ -14,7 +14,7 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 
 __N.B__: [Git](https://git-scm.com/downloads) should be installed in the machine, in order to run these algorithms directly from the downloaded project.
 
-__N.B__: See [OIAR (V2)](https://github.com/inesosman/OIAR-V2-) if you want to try a version that uses OWL API 4.5. And see [OIAR (V3)](https://github.com/inesosman/OIAR-V3-) if you want to try a version that uses OWL API 5.1.
+__N.B__: See [OIAR (V2)](https://github.com/inesosman/OIAR-V2-) if you want to try a version that uses __OWL API 4.5__. And see [OIAR (V3)](https://github.com/inesosman/OIAR-V3-) if you want to try a version that uses __OWL API 5.1__.
 
 ### Input
 
