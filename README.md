@@ -4,7 +4,7 @@ OIAR is an approach for creating a new ontology resulting from a simple merge of
 
 ## Installation
 
-Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains OWL API 3.5 jars and their dependencies, Alignment API 4.9 jars, HermiT ontology reasoner jars, and ELK ontology reasoner jars. Then, run one of the three following classes of the [src/integration](https://github.com/inesosman/OIAR/tree/master/src/integration) folder (depending on your choice) :
+Download OIAR and open it in your IDE, then manually add all the jars of the [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder to the classpath. The [lib](https://github.com/inesosman/OIAR/tree/master/lib) folder contains __OWL API 3.5__ jars and their dependencies, __Alignment API 4.9__ jars, __HermiT__ ontology reasoner jars, and __ELK__ ontology reasoner jars. Then, run one of the three following classes of the [src/integration](https://github.com/inesosman/OIAR/tree/master/src/integration) folder (depending on your choice) :
 
 * [AutomaticIntegrationWithoutRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/AutomaticIntegrationWithoutRefactoring.java) : It uses the predefined OWLOntologyMerger() method of OWL API, which automatically aggregates/concatenates the axioms of the loaded input ontologies. Then, it translates correspondences of the input alignments into bridging axioms, and adds them in order to link different entities.
 
@@ -13,6 +13,8 @@ Download OIAR and open it in your IDE, then manually add all the jars of the [li
 * [IntegrationWithRefactoring](https://github.com/inesosman/OIAR/blob/master/src/integration/IntegrationWithRefactoring.java) : It parses all the input ontologies' axioms, and creates a refactored copy of them. A full IRI of an entity (which can be a class, a property, or an individual) is composed of a prefix, followed by a local name (*i.e.*, a suffix or an abbriviated name). Refactoring consists in replacing the prefix IRIs of all entities (*i.e.*, the part before the #) by the IRI of the furture merged ontology. Then, it adds bridging axioms of the input alignments in order to link different refactored entities.
 
 __N.B__: [Git](https://git-scm.com/downloads) should be installed in the machine, in order to run these algorithms directly from the downloaded project.
+
+__N.B__: See [OIAR (V2)](https://github.com/inesosman/OIAR-V2-) if you want to try a version that uses OWL API 4.5. And see [OIAR (V3)](https://github.com/inesosman/OIAR-V3-) if you want to try a version that uses OWL API 5.1.
 
 ### Input
 
